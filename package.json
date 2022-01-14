@@ -1,0 +1,31 @@
+{
+  "name": "Appolo graphql server",
+  "version": "1.0.0",
+  "description": "Basic starter kit for a flexible GraphQL",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "eslint": "./node_modules/eslint/bin/eslint.js src/*"
+  },
+  "keywords": ["graphql-appolo-server","graphql"],
+  "author": "Vinod khetade",
+  "devDependencies": {
+    "@types/webpack-env": "^1.16.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "dotenv": "^8.6.0",
+    "eslint": "^7.21.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "graphql": "^15.5.0",
+    "ts-node": "^10.4.0"
+  }
+}
